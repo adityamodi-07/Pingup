@@ -6,7 +6,7 @@ import Story from "../model/Story.js";
 import Message from "../model/Message.js";
 
 export const inngest = new Inngest({ id: "pingup-app" });
-
+  
 const syncUserCreation = inngest.createFunction(
   { id: "sync-user-from-clerk" },
   { event: "clerk/user.created" },

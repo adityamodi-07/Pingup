@@ -6,9 +6,10 @@ import { inngest,functions } from './inngest/index.js';
 import { serve } from 'inngest/express';
 import { clerkMiddleware } from "@clerk/express";
 import userRouter from './routes/userRoutes.js';
-import postRouter from './routes/PostRoutes.js';
 import storyRouter from './routes/storyRoutes.js';
 import messageRouter from './routes/messageRoutes.js';
+import postRouter from './routes/postRoutes.js';
+
 
 const app = express();
 
