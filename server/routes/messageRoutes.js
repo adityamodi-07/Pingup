@@ -1,6 +1,6 @@
 import express from 'express';
 import { sseController, sendMessage, getChatMessages } from '../controllers/messageController.js';
-import { protect } from '../middleware/auth.js';
+import { protect } from '../middlewares/auth.js';
 import { upload } from '../configs/multer.js';
 
 
